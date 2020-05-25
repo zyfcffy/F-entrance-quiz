@@ -30,6 +30,7 @@
         "devDependencies": true
       }
     ],
-    "import/prefer-default-export": "warn"
+    "import/prefer-default-export": "warn",
+    "react/no-array-index-key": "warn"
   }
 }
