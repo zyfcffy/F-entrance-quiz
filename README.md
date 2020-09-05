@@ -2,10 +2,10 @@
 
 ## Start Server
 
-Server started at http://localhost:1234 . Parcel is used for bundler.
+Server started at `http://localhost:1234` . Parcel is used for bundler.
 
 ```
-yarn start
+npm run start
 ```
 
 ## Run Jest Test
@@ -13,23 +13,23 @@ yarn start
 Jest is used for Unit Test.
 
 ```
-yarn test
+npm run test
 ```
 
 ### Run Cypress Test with Web Server started
 
 ```
-yarn cypress
+npm run cypress
 ```
 
 ### Open Cypress CLI
 
 ```
-yarn cypress:open
+npm run cypress:open
 ```
 
 ### Run Cypress Test
 
 ```
-yarn cypress:run
+npm run cypress:run
 ```
