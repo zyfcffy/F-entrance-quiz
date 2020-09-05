@@ -6,5 +6,5 @@ test('should render App', () => {
   const { getByTestId } = render(<App />);
   const app = getByTestId('app');
 
-  expect(app).not.toBeEmpty();
+  expect(app).not.toBeEmptyDOMElement();
 });
