@@ -1,7 +1,6 @@
 {
   "extends": [
-    "airbnb-base",
-    "airbnb/rules/react",
+    "airbnb",
     "prettier",
     "prettier/react",
     "plugin:jest/recommended",
@@ -32,5 +31,9 @@
     ],
     "import/prefer-default-export": "warn",
     "react/no-array-index-key": "warn"
+  },
+  "env": {
+    "browser": true,
+    "node": true
   }
 }
