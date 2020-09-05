@@ -8,9 +8,6 @@
     "test": "jest",
     "jest:watch": "jest --watch",
     "jest:coverage": "jest --coverage",
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
-    "cypress": "start-server-and-test start http://localhost:1234 cypress:run",
     "format": "prettier --write \"**/*.{js,css,scss,md}\"",
     "lint": "eslint \"src/\" --cache --fix --format table"
   },
@@ -28,11 +25,9 @@
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.3.0",
     "babel-polyfill": "^6.26.0",
-    "cypress": "^5.1.0",
     "eslint": "^7.8.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-cypress": "^2.11.1",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
@@ -43,8 +38,7 @@
     "jest-css-modules-transform": "^4.0.0",
     "lint-staged": "^10.3.0",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^2.1.1",
-    "start-server-and-test": "^1.11.3"
+    "prettier": "^2.1.1"
   },
   "husky": {
     "hooks": {

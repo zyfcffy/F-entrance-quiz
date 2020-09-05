@@ -9,7 +9,4 @@ Thumbs.db
 package-lock.json
 .cache/
 dist/
-cypress/videos/*
-cypress/screenshots/*
-cypress/plugins/*
 .eslintcache

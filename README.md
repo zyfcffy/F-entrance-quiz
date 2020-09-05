@@ -15,21 +15,3 @@ Jest is used for Unit Test.
 ```
 npm run test
 ```
-
-### Run Cypress Test with Web Server started
-
-```
-npm run cypress
-```
-
-### Open Cypress CLI
-
-```
-npm run cypress:open
-```
-
-### Run Cypress Test
-
-```
-npm run cypress:run
-```
