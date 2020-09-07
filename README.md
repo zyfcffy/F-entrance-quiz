@@ -27,3 +27,7 @@ Color is defined at `src/style/_variables.scss` .
 | Gray          | #929aab |
 | Dark Gray     | #393e46 |
 | Primary color | #ea5455 |
+
+## Mock up
+
+![Mock up](mockup/entrance-quiz-mockup.png)
