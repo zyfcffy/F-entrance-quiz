@@ -26,6 +26,19 @@ class Student extends Component {
       .catch((error) => console.log(error));
   };
 
+  addStudent = (e) => {
+    if (e.keyCode === 13) {
+      const name = e.target.value;
+      fetch('http://localhost:8080/student', {
+        method: 'POST',
+        body: JSON.stringify({ name }),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }).then(alert('添加成功！'));
+    }
+  };
+
   render() {
     return (
       <div className="student-list">
@@ -40,6 +53,7 @@ class Student extends Component {
               </div>
             );
           })}
+          <input type="text" placeholder="+添加学员" onKeyDown={(e) => this.addStudent(e)} />
         </div>
       </div>
     );

@@ -8,8 +8,10 @@
 }
 
 .student-item {
-  background-color: #eeeeee;
-  display: flex;
+  background-color: #929aab;
+  display: inline-block;
   justify-content: center;
   align-items: center;
+  width: 70px;
+  padding: 2px;
 }
