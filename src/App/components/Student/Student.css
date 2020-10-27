@@ -1,0 +1,15 @@
+.student-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.students {
+  display: flex;
+}
+
+.student-item {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
