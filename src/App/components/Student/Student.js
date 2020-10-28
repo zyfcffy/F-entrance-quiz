@@ -31,7 +31,7 @@ class Student extends Component {
       const name = e.target.value;
       fetch('http://localhost:8080/student', {
         method: 'POST',
-        body: JSON.stringify({ name }),
+        body: name,
         headers: {
           'Content-Type': 'application/json',
         },
