@@ -10,6 +10,7 @@
 .student-item {
   background-color: #929aab;
   display: inline-block;
+  /* TODO GTB-3: - justify-content与align-items应该出现在display: flex;这一层上 */
   justify-content: center;
   align-items: center;
   width: 70px;

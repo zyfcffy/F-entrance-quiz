@@ -28,6 +28,7 @@ class Team extends Component {
 
   render() {
     return (
+      // TODO GTB-4: - 加强语义化标签的使用
       <div className="team">
         <div className="team-header">
           <h1>分组列表</h1>
@@ -37,6 +38,7 @@ class Team extends Component {
         </div>
         {this.state.teamList.map((team, index) => {
           return (
+            // TODO GTB-4: - 不推荐使用index作为key，可以使用id等
             <div className="team-container" key={index}>
               <div className="team-name">{team.name}</div>
               <div className="team-content">
